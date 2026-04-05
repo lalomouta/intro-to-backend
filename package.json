@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "tutorial from freecodecamp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/lalomouta/intro-to-backend/issues"
   },
-  "homepage": "https://github.com/lalomouta/intro-to-backend#readme"
+  "homepage": "https://github.com/lalomouta/intro-to-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
 }
