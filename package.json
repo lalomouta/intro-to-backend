@@ -1,0 +1,18 @@
+{
+  "name": "freecodecamp_backend",
+  "version": "1.0.0",
+  "description": "a tutorial from youtube",
+  "main": "backend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "author": "Lalo Mouta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3"
+  }
+}
